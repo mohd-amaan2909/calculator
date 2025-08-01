@@ -21,17 +21,43 @@
     border: 0.5rem solid white;
     border-radius: 2rem;
 }
-.line-1, .line-2, .line-3, .line-4, .line-5{
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6, .line-7, .line-8, .line-9, .line-10{
     width: 30vw;
     display: flex;
     justify-content: space-evenly;
-    align-items: space-evenly;
     flex-wrap: nowrap;
+    
 }
 .button1{
     height: 6vh;
     width: 4vw;
     background-color: grey;
     border-radius: 2rem;
+    margin: 3px;
+    border: none;
+    background-color: 	#333333;
+    font-size: 1rem;
+    color: white;
 }
-
+.button2{
+    height: 6vh;
+    width: 8vw;
+    background-color: grey;
+    border-radius: 2rem;
+    margin: 3px;
+    border: none;
+    background-color: 	#333333;
+    font-size: 1rem;
+    color: white;
+}
+.line-10{
+    margin-bottom:1rem;
+}
+.op{
+    background-color: #FF9500;
+    font-size: 1rem;
+}
+.op2{
+    background-color: grey;
+    font-size: 1rem;
+}
