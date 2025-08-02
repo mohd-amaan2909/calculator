@@ -21,6 +21,23 @@
     border: 0.5rem solid white;
     border-radius: 2rem;
 }
+.display{
+    height: 28vh;
+    width: 30vw;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 3rem;
+}
+.display-keys{
+    height: 70vh;
+    border: 0.3rem solid white;
+    border-radius: 1rem;
+}
 .line-1, .line-2, .line-3, .line-4, .line-5, .line-6, .line-7, .line-8, .line-9, .line-10{
     width: 30vw;
     display: flex;
@@ -50,9 +67,12 @@
     font-size: 1rem;
     color: white;
 }
+.button1:hover, .button2:hover{
+    scale: 1.08;
+}
 .line-10{
     margin-bottom:1rem;
-}
+} 
 .op{
     background-color: #FF9500;
     font-size: 1rem;
