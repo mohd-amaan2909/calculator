@@ -53,6 +53,17 @@ function degToRad(deg) {
         } else{
           display.innerText = Math.sqrt(num);
         }
+      } else if(value === "x1/3"){
+        let num = parseFloat(display.innerText);
+        if(num===0){
+          display.innerText = "0";
+        } else{
+          display.innerText = Math.cbrt(num);
+        }
+      } else if (value === "x1/y"){
+       let firstNum = parseFloat(display.innerText);
+       operator = root;
+       display.innerText = " ";
       }
       else{
         display.innerText +=value;
